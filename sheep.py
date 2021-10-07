@@ -2,9 +2,10 @@
 # coding: utf-8
 
 # In[ ]:
-
-
 #task3
+
+from angle import angle 
+from obj import obj 
 import sys
 class sheep(angle,obj):
     def __init__(self, degrees = 0, minutes = 0, direction = 'W', name = "Aurora", capacity = 0):
