@@ -8,7 +8,7 @@
 import sys
 class sheep(angle,obj):
     def __init__(self, degrees = 0, minutes = 0, direction = 'W', name = "Aurora", capacity = 0):
-            if len(self.instances) <=3:
+            if len(self.instances) <3:
                 angle.__init__(self, degrees, minutes, direction )
                 obj.__init__(self)
                 self.name = name
